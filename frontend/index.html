@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>🚀 Mi App Kubernetes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Bienvenido a tu Landing Page Kubernetes</h1>
+    <p>Frontend + Backend + MongoDB desplegados en Minikube</p>
+    <a href="http://backend-service" target="_blank" class="btn">Ir al Backend</a>
+  </header>
+
+  <main>
+    <section class="cards">
+      <div class="card">
+        <h2>Frontend</h2>
+        <p>NGINX sirviendo esta página.</p>
+      </div>
+      <div class="card">
+        <h2>Backend</h2>
+        <p>API disponible en <code>backend-service</code>.</p>
+      </div>
+      <div class="card">
+        <h2>Base de datos</h2>
+        <p>MongoDB en <code>mongo-service:27017</code>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Desplegado con Kubernetes en Minikube 🚀</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
